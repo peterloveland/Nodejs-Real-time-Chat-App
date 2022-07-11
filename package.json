@@ -4,7 +4,7 @@
   "description": "Real Time Chat With NodeJS, Socket.io and ExpressJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive --exit"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
     "express": "^4.14.0",
     "jade": "^1.11.0",
     "socket.io": "^1.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
   }
 }
